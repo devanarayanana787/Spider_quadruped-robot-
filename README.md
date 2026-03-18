@@ -7,3 +7,7 @@
 //code is under the Delta Automations (learnwithproject) category 
 //Happy learning
 //quadruped course contact :+91 9188372187
+
+
+how to run the code 
+make the quadruped.ino and just sent the code and upload it on ur microcontroller 
