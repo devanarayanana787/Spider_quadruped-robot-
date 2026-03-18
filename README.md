@@ -1,13 +1,1 @@
-//crawl gait for the 3 dof for each leg  ( quadruped spider robot )
-//author - Devanarayanan A :: Contact devanarayanana787@gmail.com :: KOLLAM , KERALA , INDIA
-//code includes the inverse kinematics , gait engine , parameters to tune the gait engine , stance etcccc
-//only forward motion forward Y ,, i have used y as forward >>
-//usage just plug and play this code in the arduino 
-//mechanical design and config from the sunfounder robotics (tm)
-//code is under the Delta Automations (learnwithproject) category 
-//Happy learning
-//quadruped course contact :+91 9188372187
-
-
-how to run the code 
-make the quadruped.ino and just sent the code and upload it on ur microcontroller 
+Quadruped Spider Robot: 3-DOF Crawl Gait EngineThis repository contains the complete firmware and simulation logic for a 4-legged (quadruped) spider robot. Developed as a semester-long project, this code transitions from basic electronics to advanced robotic locomotion using Inverse Kinematics (IK) and Gait Engines.🚀 Features3-DOF Per Leg: Full control over Coxa, Femur, and Tibia joints.Inverse Kinematics (IK): Converts $(X, Y, Z)$ coordinates into precise motor angles.Crawl Gait Engine: Smooth forward motion ($+Y$ axis) with adjustable parameters.Plug & Play: Optimized for Arduino Nano and compatible microcontrollers.Simulation Ready: Includes the Spider Package for ROS 2 and Gazebo (Ubuntu 22.04).🛠️ Hardware RequirementsMechanical Design: Sunfounder Robotics (tm) configuration.Controller: Arduino Nano (or similar microcontrollers).Power: External 5V/6V supply capable of high current for 12 servos.Servos: 12x Micro Servos (SG90 or MG90S).📂 Repository Structure/quadruped.ino: The main Arduino sketch. Just upload and run./Spider_Package: ROS 2 and Gazebo simulation files for Ubuntu 22.04./Documentation: PDF guides, IK formulas, and gait engine tuning notes.🎮 How to RunHardware: Assemble your robot based on the Sunfounder mechanical design.Arduino: Open quadruped.ino in the Arduino IDE.Upload: Connect your Arduino Nano and click Upload.Simulation: For ROS 2 users, move the spider_package to your colcon_ws and launch the Gazebo environment.Credits & SupportAuthor: Devanarayanan ALocation: Kollam, Kerala, IndiaCategory: Delta Automations (LearnWithProject)Contact: devanarayanana787@gmail.com | +91 9188372187Happy Learning!
